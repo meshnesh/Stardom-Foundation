@@ -20,6 +20,15 @@ p{
 
 }
 
+.second{
+    background: #299ec1;
+}
+
+
+.third{
+    background: #ffff00;
+}
+
 .thumbnail {
     margin-top: 5%;
     margin-left: 15%;
