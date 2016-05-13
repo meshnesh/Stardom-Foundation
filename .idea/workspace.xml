@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b5c521-3e0c-4328-9f12-6539d6b74aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.css" afterPath="$PROJECT_DIR$/programs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.html" afterPath="$PROJECT_DIR$/programs.html" />
     </list>
     <ignored path="Stardom-Foundation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,17 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="programs.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="programs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/programs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="506">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="programs.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="programs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -61,8 +61,8 @@
       <list>
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/programs.html.css" />
-        <option value="$PROJECT_DIR$/programs.html" />
         <option value="$PROJECT_DIR$/programs.css" />
+        <option value="$PROJECT_DIR$/programs.html" />
       </list>
     </option>
   </component>
@@ -152,6 +152,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="PluginDummyText.Genre" value="scifi" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -212,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463139935155</updated>
-      <workItem from="1463139936723" duration="5349000" />
+      <workItem from="1463139936723" duration="5481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5349000" />
+    <option name="totallyTimeSpent" value="5481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -266,18 +267,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/programs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding />
         </state>
       </provider>
