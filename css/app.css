@@ -1,11 +1,11 @@
-.parallax-window {
-    min-height: 400px;
+.hero .parallax-window {
+    min-height: 600px;
     background: transparent;
 }
 
 .about {
-    height: 60vh;
-    background-color: red
+    height: 70vh;
+    background-color: #FFFFFF;
 }
 
 .about p {
@@ -18,13 +18,22 @@
     margin-right: auto;
 }
 
+.quote .parallax-window {
+    min-height: 440px;
+    background: transparent;
+}
+
 .impact {
-    height: 30vw;
+    height: 20vw;
     background-color: black;
 }
 
 .impact p {
-    color: white
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vw;
+    font-size: 2.5em;
 }
 
 footer .contact {
@@ -37,12 +46,18 @@ footer .contact {
 
 .light-pink {
     background-color: deeppink;
-    height: 25vw;
+    height: 35vw;
+    text-align: right;
+    color: white;
+}
+
+.light-pink p {
+    text-align: right
 }
 
 .dark-pink {
     background-color: hotpink;
-    height: 25vw;
+    height: 35vw;
 }
 
 footer p {
