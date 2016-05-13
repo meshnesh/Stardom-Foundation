@@ -1,3 +1,6 @@
+.column.row.row, .row.row.columns{
+    height: 100vh;
+}
 .thumbnail {
     margin-top: 5%;
 }
