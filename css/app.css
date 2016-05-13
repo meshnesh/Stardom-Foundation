@@ -1,0 +1,23 @@
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.about {
+    height: 60vh;
+    background-color: red
+}
+
+.about p {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 2em;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.impact {
+    height: 60vh;
+}
