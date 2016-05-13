@@ -8,11 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/./js/parallax.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/nav_mobile.css">
+
 </head>
 
 <body>
     <section>
-        <nav class="top-navigation">
+        <nav class="desk_nav top-navigation">
             <ul>
                 <li>
                     <a href="#home"><img src="./img/pngone.png"></a>
@@ -25,7 +27,17 @@
             </ul>
         </nav>
     </section>
-
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="overlay-content">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">EVENTS</a>
+            <a href="#">SUPPORT</a>
+            <a href="#">DONATE</a>
+        </div>
+    </div>
+    <span class="mobile_nav" style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">☰ </span>
     <section class="hero">
         <div class="parallax-window" data-parallax="scroll" data-image-src="./img/hero4.jpg">
             <p>WE ARE AN ORGANIZATION ADDRESSING</p>
@@ -88,7 +100,16 @@
         <p>Copyright © 2016 </p>
     </footer>
 
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
 
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+    </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
