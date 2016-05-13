@@ -16,7 +16,32 @@ p{
     background: #9e0c0f;
     width: 55%;
     margin-top: -30%;
-    height: 80vh;
+    height: 60vh;
+
+}
+
+.second{
+    background: #299ec1;
+    width: 55%;
+}
+
+
+.third{
+    background: #ffff00;
+    width: 55%;
+    margin-top: -25%;
+}
+
+
+.fourth{
+    background: #0a0a0a;
+    width: 55%;
+}
+.fifth{
+    background: #9e0c0f;
+    width: 55%;
+    margin-top: -30%;
+    height: 60vh;
 
 }
 
