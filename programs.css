@@ -10,9 +10,13 @@ p{
 
 .right{
     background: #0a0a0a;
+    width: 55%;
 }
 .left{
-    background:#9e0c0f;
+    background: #9e0c0f;
+    width: 55%;
+    margin-top: -30%;
+    height: 80vh;
 
 }
 
