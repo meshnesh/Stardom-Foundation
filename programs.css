@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+    background: #bababa;
+}
 .small-6 {
     margin-top: 10%;
 }
@@ -49,6 +53,11 @@ p{
     margin-left: 15%;
 }
 
+
+
+footer{
+    background: #757575;
+}
 
 @media only screen and (max-width: 1024px) {
     .small-6 {
