@@ -18,23 +18,29 @@ nav li {
     float: left;
 }
 
+nav li img {
+    height: 60px;
+    padding-left: 100px;
+}
+
 nav li a {
     display: block;
     color: black;
     font-weight: 600;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li .active {
-    padding-right: 50px
+    padding-right: 100px
 }
 
 
 /*********************************************************/
 
-.hero {}
+.hero {
+    background-image: linear-gradient(rgba(136, 38, 38, 0.4), rgba(56, 37, 37, 0.4)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=), url(../img/he.jpg);
+}
 
 .hero .parallax-window {
     min-height: 600px;
@@ -76,7 +82,7 @@ nav li .active {
 
 .impact {
     height: 20vw;
-    background-color: black;
+    background-color: #E4007D;
 }
 
 .impact p {
