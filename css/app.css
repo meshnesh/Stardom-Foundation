@@ -87,6 +87,7 @@ nav li .active {
 .quote .parallax-window {
     min-height: 440px;
     background: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
 }
 
 .impact {
