@@ -1,0 +1,25 @@
+#diamond {
+    background-color: #2ba6cb;
+    width:500px;
+    height: 500px;
+    position:absolute;
+    z-index:auto;
+}
+#spade {
+    background-color: #9e0c0f;
+    width:500px;
+    height: 500px;
+    position:absolute;
+    z-index:1;
+    left:125px;
+    top:125px;
+}
+#club {
+    background-color: yellowgreen;
+    width:500px;
+    height: 500px;
+    position:absolute;
+    z-index:2;
+    left:250px;
+    top:250px;
+}
