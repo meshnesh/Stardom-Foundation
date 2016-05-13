@@ -19,5 +19,33 @@
 }
 
 .impact {
-    height: 60vh;
+    height: 30vw;
+    background-color: black;
+}
+
+.impact p {
+    color: white
+}
+
+footer .contact {
+    min-width: 100%
+}
+
+.events-prog {
+    height: 30vw;
+}
+
+.light-pink {
+    background-color: deeppink;
+    height: 25vw;
+}
+
+.dark-pink {
+    background-color: hotpink;
+    height: 25vw;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
 }
