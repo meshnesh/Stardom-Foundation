@@ -32,6 +32,19 @@ p{
     margin-top: -25%;
 }
 
+
+.fourth{
+    background: #0a0a0a;
+    width: 55%;
+}
+.fifth{
+    background: #9e0c0f;
+    width: 55%;
+    margin-top: -30%;
+    height: 60vh;
+
+}
+
 .thumbnail {
     margin-top: 5%;
     margin-left: 15%;
