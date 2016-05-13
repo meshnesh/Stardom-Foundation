@@ -8,25 +8,35 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="css/nav_mobile.css">
 </head>
 
 <body>
+    <section>
+        <nav class="top-navigation desk_nav">
+            <ul>
+                <li>
+                    <a href="#home"><img src="./img/pngone.png"></a>
+                </li>
+                <li style="float:right; padding-top:20px;"><a class="active" href="#about">DONATE</a></li>
+                <li style="float:right; margin-right:100px; padding-top:20px;"><a href="#about">SUPPORT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">EVENTS</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">ABOUT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">HOME</a></li>
+            </ul>
+        </nav>
+    </section>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">EVENTS</a>
+            <a href="#">SUPPORT</a>
+            <a href="#">DONATE</a>
         </div>
     </div>
-
-<!--
-    <h2>Fullscreen Overlay Nav Example</h2>
-<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
-<p>In this example, the navigation menu will slide in, from left to right:</p>
--->
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+    <span class="mobile_nav" style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
 
 
 
@@ -36,11 +46,11 @@
 
 <script>
     function openNav() {
-        document.getElementById("myNav").style.width = "100%";
+        document.getElementById("myNav").style.height = "100%";
     }
 
     function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
+        document.getElementById("myNav").style.height = "0%";
     }
 
 </script>
