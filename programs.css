@@ -22,11 +22,14 @@ p{
 
 .second{
     background: #299ec1;
+    width: 55%;
 }
 
 
 .third{
     background: #ffff00;
+    width: 55%;
+    margin-top: -25%;
 }
 
 .thumbnail {
