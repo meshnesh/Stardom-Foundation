@@ -87,12 +87,12 @@ nav li .active {
     font-size: 2.5em;
 }
 
-footer .contact {
-    min-width: 100%
-}
-
 .events-prog {
     height: 30vw;
+}
+
+footer .contact {
+    min-width: 100%
 }
 
 .light-pink {
@@ -123,4 +123,18 @@ footer p {
     text-align: center;
     padding-top: 20px;
     font-size: 1.5em
+}
+
+.post .contact form {
+    display: table;
+    margin: 0 auto;
+}
+
+.post .contact form .input-group textarea {
+    background: #ffffff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
 }
