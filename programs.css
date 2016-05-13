@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+    background: #bababa;
+}
 .small-6 {
     margin-top: 10%;
 }
@@ -12,16 +16,18 @@ p{
     width: 55%;
 }
 .left{
+    opacity: 0.9;
     background: #FC017D;
-    width: 55%;
+    width: 50%;
     margin-top: -30%;
-    height: 60vh;
+    /*height: 60vh;*/
 
 }
 
 .second{
+    opacity: 0.9;
     background: #FC017D;
-    width: 55%;
+    width: 65%;
 }
 
 
@@ -35,10 +41,10 @@ p{
     width: 55%;
 }
 .fifth{
+    opacity: 0.9;
     background: #FC017D;
-    width: 55%;
+    width: 50%;
     margin-top: -30%;
-    height: 60vh;
 
 }
 
@@ -47,6 +53,11 @@ p{
     margin-left: 15%;
 }
 
+
+
+footer{
+    background: #757575;
+}
 
 @media only screen and (max-width: 1024px) {
     .small-6 {
