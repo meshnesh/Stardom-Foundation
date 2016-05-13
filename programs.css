@@ -9,11 +9,10 @@ p{
 
 
 .right{
-    background: #0a0a0a;
     width: 55%;
 }
 .left{
-    background: #9e0c0f;
+    background: #FC017D;
     width: 55%;
     margin-top: -30%;
     height: 60vh;
@@ -21,24 +20,22 @@ p{
 }
 
 .second{
-    background: #299ec1;
+    background: #FC017D;
     width: 55%;
 }
 
 
 .third{
-    background: #ffff00;
     width: 55%;
     margin-top: -25%;
 }
 
 
 .fourth{
-    background: #0a0a0a;
     width: 55%;
 }
 .fifth{
-    background: #9e0c0f;
+    background: #FC017D;
     width: 55%;
     margin-top: -30%;
     height: 60vh;
