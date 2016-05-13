@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83b5c521-3e0c-4328-9f12-6539d6b74aeb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.css" afterPath="$PROJECT_DIR$/programs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programs.html" afterPath="$PROJECT_DIR$/programs.html" />
     </list>
     <ignored path="Stardom-Foundation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,18 +27,28 @@
       <file leaf-file-name="programs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="106" column="41" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+            <state relative-caret-position="581">
+              <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="programs.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="programs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -61,8 +72,8 @@
       <list>
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/programs.html.css" />
-        <option value="$PROJECT_DIR$/programs.html" />
         <option value="$PROJECT_DIR$/programs.css" />
+        <option value="$PROJECT_DIR$/programs.html" />
       </list>
     </option>
   </component>
@@ -227,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463139935155</updated>
-      <workItem from="1463139936723" duration="9071000" />
+      <workItem from="1463139936723" duration="9386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9071000" />
+    <option name="totallyTimeSpent" value="9386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -281,18 +292,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.html">
+    <entry file="file://$PROJECT_DIR$/programs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="106" column="41" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+        <state relative-caret-position="75">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/programs.css">
+    <entry file="file://$PROJECT_DIR$/programs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="581">
+          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="13" />
           <folding />
         </state>
       </provider>
