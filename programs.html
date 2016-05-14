@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stardom-Foundation |  Programs</title>
+    <title>Programs &#124; Stardom</title>
     <!--<link rel="shortcut icon" href="img/logo.png" type="image/png">-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/ionicons.css" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/nav_mobile.css" />
     <link rel="stylesheet" href="programs.css" />
 
 </head>
+
 <body>
 
+    <!--    *******************************  -->
+    <!--    Beginning Of Nav Bar-->
+    <section>
+        <nav class="desk_nav top-navigation">
+            <ul>
+                <li>
+                    <a href="#home"><img src="./img/pngone.png"></a>
+                </li>
+                <li style="float:right; padding-top:20px;"><a class="active" href="#about">DONATE</a></li>
+                <li style="float:right; margin-right:100px; padding-top:20px;"><a href="./programs.html">SUPPORT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./events.html">EVENTS</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./about.html">ABOUT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
 
-<div class="column row wrapper">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./events.html">EVENTS</a>
+                <a href="./programs.html">SUPPORT</a>
+                <a href="#abot">DONATE</a>
+            </div>
+        </div>
+        <span class="mobile_nav" style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">☰ </span>
+    </section>
+    <!--    End of Nav Bar-->
 
-<h1>
+
+
+    <div class="column row wrapper">
+
+        <h1>
     Stardom-Foundation | Programs
 </h1>
-    <p>
-        Stardom-Foundation has three core programs:
-    <ul>
-    <li>Ferox deuss ducunt ad contencio.</li>
-    <li>Cauliflower combines greatly with old tuna.</li>
-    <li>Why does the starship warp.</li>
-    </ul>
-    </p>
+        <p>
+            Stardom-Foundation has three core programs: </p>
+        <ul>
+            <li>Ferox deuss ducunt ad contencio.</li>
+            <li>Cauliflower combines greatly with old tuna.</li>
+            <li>Why does the starship warp.</li>
+        </ul>
+
+    </div>
 
 
     <div class="row medium-uncollapse large-collapse">
@@ -92,12 +129,12 @@
                 </p>
 
             </div>
+        </div>
+        <div class="small-6 columns third">
+            <div class="column">
+                <img src="img/bath.jpg" class="thumbnail" alt="">
             </div>
-            <div class="small-6 columns third">
-                <div class="column">
-                    <img src="img/bath.jpg" class="thumbnail" alt="">
-                </div>
-            </div>
+        </div>
     </div>
 
 
@@ -137,10 +174,15 @@
     </div>
 
 
-</div>
-<footer>
-<p>Copyright © 2016 </p>
-</footer>
+    <!--    </div>-->
+    <footer>
+        <p>Copyright © 2016 </p>
+    </footer>
 
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
