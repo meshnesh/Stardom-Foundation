@@ -39,6 +39,9 @@ body {
 }
 .card .image {
     position: relative;
+    height: 200px;
+    background-size: 100% 170%;
+    background-repeat: no-repeat;
 }
 .card .image .title {
     position: absolute;
@@ -72,4 +75,13 @@ body {
 }
 h1 {
     text-align: center;
+}
+.img_1 {
+    background-image: url(../img/pad.jpeg);
+}
+.img_2 {
+    background-image: url(../img/pad2.jpg);
+}
+.img_3 {
+    background-image: url(../img/pad3.jpg);
 }
