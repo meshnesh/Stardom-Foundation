@@ -46,11 +46,12 @@ nav li .active:hover{
 
 /*********************************************************/
 .hero {
-    background-image: linear-gradient(rgba(136,38,38,0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
+    background-image: url(../img/overlay-pic.png);
+    background-size: cover
 }
 @media screen and (max-width: 678px){
     .hero {
-    background-image: linear-gradient(rgba(136,38,38,0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=), url(../img/hero4.jpg);
+    background-color: red;
 }
 }
 
@@ -75,7 +76,7 @@ nav li .active:hover{
 @media screen and (max-width: 418px){
     .hero p {
     padding-top: 230px;
-        font-size: 3em;
+        font-size: 2.5em;
 }
 }
 
@@ -107,25 +108,31 @@ nav li .active:hover{
 .quote .parallax-window {
     min-height: 440px;
     background: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=), url(../img/hero4.jpg);
 }
 
 .impact {
     height: 20vw;
     background-color: #E4007D;
 }
+.impact .impact-small{
+    font-size: 0.7em;
+}
 
 @media screen and (max-width: 640px) {
     .impact {
-        height: 72vw;
+        height: 72px;
+    }
+}
+@media screen and (max-width: 508px){
+    .impact{
+        height: 375px;
     }
 }
 
 .impact p {
     color: #fff;
     text-align: center;
-    vertical-align: middle;
-    line-height: 20vw;
     font-size: 2.5em;
 }
 
@@ -162,7 +169,7 @@ footer .contact {
     height:400;
 }
 .dark-pink  i{
-    margin-left: 45px;
+    margin-left: 20px;
 }
 @media screen and (max-width: 500px) {
     .dark-pink {
