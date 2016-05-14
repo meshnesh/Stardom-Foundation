@@ -122,16 +122,39 @@ footer .contact {
     height: 35vw;
     text-align: right;
     color: #fff;
+    height:400;
 }
 
 .light-pink p {
     text-align: right;
 }
+@media screen and (max-width: 420px) {
+    .light-pink p {
+    font-size: 1.2em;
+}
+}
 
 .dark-pink {
     background-color: #ff69b4;
-    height: 35vw;
     color: #fff;
+    height:400;
+}
+@media screen and (max-width: 500px) {
+    .dark-pink {
+    color: #fff;
+        height: 450px;
+}
+}
+@media screen and (max-width: 420px) {
+    .dark-pink {
+    color: #fff;
+        height: 470px;
+}
+}
+@media screen and (max-width: 420px) {
+    .dark-pink p{
+    font-size: 1.2em;
+}
 }
 
 footer h5 {
