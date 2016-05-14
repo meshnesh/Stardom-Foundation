@@ -139,6 +139,9 @@ footer .contact {
     color: #fff;
     height:400;
 }
+.dark-pink  i{
+    margin-left: 45px;
+}
 @media screen and (max-width: 500px) {
     .dark-pink {
     color: #fff;
@@ -162,6 +165,7 @@ footer h5 {
     font-size: 1.8em;
     font-family: "raleway",serif;
     font-weight: 600;
+    text-align: center;
 }
 
 footer p {
