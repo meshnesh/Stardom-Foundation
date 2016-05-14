@@ -46,13 +46,8 @@ nav li .active:hover{
 
 /*********************************************************/
 .hero {
-    background-image: url(../img/overlay-pic.png);
+    background-position: center;
     background-size: cover
-}
-@media screen and (max-width: 678px){
-    .hero {
-    background-color: red;
-}
 }
 
 .hero .parallax-window {
@@ -108,25 +103,17 @@ nav li .active:hover{
 .quote .parallax-window {
     min-height: 440px;
     background: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=), url(../img/hero4.jpg);
+    background-image: ;
 }
 
 .impact {
     height: 20vw;
     background-color: #E4007D;
 }
-.impact .impact-small{
-    font-size: 0.7em;
-}
 
 @media screen and (max-width: 640px) {
     .impact {
-        height: 72px;
-    }
-}
-@media screen and (max-width: 508px){
-    .impact{
-        height: 375px;
+        height: 550px;
     }
 }
 
@@ -134,6 +121,10 @@ nav li .active:hover{
     color: #fff;
     text-align: center;
     font-size: 2.5em;
+    padding-top: 20px;
+}
+.impact p span{
+    font-size: .7em
 }
 
 .events-prog {
@@ -169,7 +160,7 @@ footer .contact {
     height:400;
 }
 .dark-pink  i{
-    margin-left: 20px;
+    margin-left: 45px;
 }
 @media screen and (max-width: 500px) {
     .dark-pink {
