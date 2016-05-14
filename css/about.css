@@ -1,20 +1,18 @@
 .trial {
-	background-color: hotpink;
-	height:400px;
-	padding:70px;
-	z-index: -1;
+    background-color: hotpink;
+    height: 400px;
+    padding: 5%;
+    z-index: -1;
 }
-
 .woa {
-	border: solid 2px black;
-	background-color:white;
-	margin-top:280px;
-	margin-bottom: 40px;
-	padding:50px;
-	font-size: 150%;
+    border: solid 2px black;
+    background-color: white;
+    margin-top: 30%;
+    margin-bottom: 40px;
+    padding: 5%;
+    font-size: 150%;
 }
-
-body{
-	text-align: center;
-	background-color: black;
+body {
+    text-align: center;
+    background-color: black;
 }
