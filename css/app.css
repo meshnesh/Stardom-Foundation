@@ -1,7 +1,13 @@
-body {
-    font-family: "raleway",serif;
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "raleway", serif;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -13,16 +19,13 @@ nav ul {
     height: 65px;
     box-shadow: 0 2px 7px #655a5a;
 }
-
 nav li {
     float: left;
 }
-
 nav li img {
     height: 60px;
     padding-left: 100px;
 }
-
 nav li a {
     display: block;
     color: #000;
@@ -30,21 +33,19 @@ nav li a {
     text-align: center;
     text-decoration: none;
 }
-
 nav li .active {
     padding-right: 100px;
 }
 
 /*********************************************************/
-.hero {
-    background-image: linear-gradient(rgba(136,38,38,0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
-}
 
+.hero {
+    background-image: linear-gradient(rgba(136, 38, 38, 0.4), rgba(56, 37, 37, 0.4)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
+}
 .hero .parallax-window {
     min-height: 600px;
     background: transparent;
 }
-
 .hero p {
     text-align: center;
     display: block;
@@ -58,12 +59,10 @@ nav li .active {
     line-height: 45px;
     padding-top: 338px;
 }
-
 .about {
     height: 70vh;
     background-color: #FFF;
 }
-
 .about p {
     text-align: center;
     padding-top: 100px;
@@ -73,34 +72,30 @@ nav li .active {
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (max-width: 615px){
-    .about p{
+@media screen and (max-width: 615px) {
+    .about p {
         padding-top: 70px;
     }
 }
-@media screen and (max-width: 520px){
-    .about p{
+@media screen and (max-width: 520px) {
+    .about p {
         font-size: 1.6em;
     }
 }
-
 .quote .parallax-window {
     min-height: 440px;
     background: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(56, 37, 37, 0.4)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
 }
-
 .impact {
     height: 20vw;
     background-color: #E4007D;
 }
-
 @media screen and (max-width: 640px) {
     .impact {
         height: 72vw;
     }
 }
-
 .impact p {
     color: #fff;
     text-align: center;
@@ -108,50 +103,41 @@ nav li .active {
     line-height: 20vw;
     font-size: 2.5em;
 }
-
 .events-prog {
     height: 30vw;
 }
-
 footer .contact {
     min-width: 100%;
 }
-
 .light-pink {
     background-color: #ff1493;
     height: 35vw;
     text-align: right;
     color: #fff;
 }
-
 .light-pink p {
     text-align: right;
 }
-
 .dark-pink {
     background-color: #ff69b4;
     height: 35vw;
     color: #fff;
 }
-
 footer h5 {
     padding-top: 50px;
     font-size: 1.8em;
-    font-family: "raleway",serif;
+    font-family: "raleway", serif;
     font-weight: 600;
 }
-
 footer p {
     text-align: center;
     padding-top: 20px;
     font-size: 1.5em;
 }
-
 .post .contact form {
     display: table;
     margin: 0 auto;
 }
-
 .post .contact form .input-group textarea {
     background: #fff;
     border: 0;
