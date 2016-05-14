@@ -32,12 +32,26 @@ nav li a {
 }
 
 nav li .active {
-    padding-right: 100px;
+    margin-right: 100px;
+    border: solid black 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: background-color 1s ease-in-out;
+}
+nav li .active:hover{
+    background-color: #FF1493;
+    color: white;
+    border: solid #dad9d9 1px;
 }
 
 /*********************************************************/
 .hero {
     background-image: linear-gradient(rgba(136,38,38,0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
+}
+@media screen and (max-width: 678px){
+    .hero {
+    background-image: linear-gradient(rgba(136,38,38,0.4),rgba(56,37,37,0.4)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=), url(../img/hero4.jpg);
+}
 }
 
 .hero .parallax-window {
@@ -57,6 +71,12 @@ nav li .active {
     vertical-align: middle;
     line-height: 45px;
     padding-top: 338px;
+}
+@media screen and (max-width: 418px){
+    .hero p {
+    padding-top: 230px;
+        font-size: 3em;
+}
 }
 
 .about {
@@ -124,7 +144,9 @@ footer .contact {
     color: #fff;
     height:400;
 }
-
+.light-pink h5{
+    text-align: right;
+}
 .light-pink p {
     text-align: right;
 }
@@ -159,7 +181,9 @@ footer .contact {
     font-size: 1.2em;
 }
 }
-
+footer{
+    text-align: center;
+}
 footer h5 {
     padding-top: 50px;
     font-size: 1.8em;
