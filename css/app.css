@@ -1,11 +1,4 @@
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
     font-family: "raleway", serif;
 }
 nav ul {
@@ -40,7 +33,7 @@ nav li .active {
     padding-right: 20px;
     -webkit-transition: background-color 1s ease-in-out;
 }
-nav li .active:hover{
+nav li .active:hover {
     background-color: #FF1493;
     color: white;
     border: solid #dad9d9 1px;
@@ -49,12 +42,8 @@ nav li .active:hover{
 /*********************************************************/
 
 .hero {
-<<<<<<< HEAD
-    background-image: linear-gradient(rgba(136, 38, 38, 0.4), rgba(56, 37, 37, 0.4)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
-=======
     background-position: center;
     background-size: cover
->>>>>>> master
 }
 .hero .parallax-window {
     min-height: 600px;
@@ -73,16 +62,12 @@ nav li .active:hover{
     line-height: 45px;
     padding-top: 338px;
 }
-<<<<<<< HEAD
-=======
-@media screen and (max-width: 418px){
+@media screen and (max-width: 418px) {
     .hero p {
-    padding-top: 230px;
+        padding-top: 230px;
         font-size: 2.5em;
+    }
 }
-}
-
->>>>>>> master
 .about {
     height: 70vh;
     background-color: #FFF;
@@ -109,11 +94,7 @@ nav li .active:hover{
 .quote .parallax-window {
     min-height: 440px;
     background: transparent;
-<<<<<<< HEAD
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(56, 37, 37, 0.4)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGklEQVQIW2N8wlD7X4ahmZGBgYEBTMAACgcAavUDBArGUGUAAAAASUVORK5CYII=);
-=======
     background-image: ;
->>>>>>> master
 }
 .impact {
     height: 20vw;
@@ -130,7 +111,7 @@ nav li .active:hover{
     font-size: 2.5em;
     padding-top: 20px;
 }
-.impact p span{
+.impact p span {
     font-size: .7em
 }
 .events-prog {
@@ -144,49 +125,45 @@ footer .contact {
     height: 35vw;
     text-align: right;
     color: #fff;
-    height:400;
+    height: 400;
 }
-.light-pink h5{
+.light-pink h5 {
     text-align: right;
 }
 .light-pink p {
     text-align: right;
 }
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 420px) {
     .light-pink p {
-    font-size: 1.2em;
+        font-size: 1.2em;
+    }
 }
-}
-
->>>>>>> master
 .dark-pink {
     background-color: #ff69b4;
     color: #fff;
-    height:400;
+    height: 400;
 }
-.dark-pink  i{
+.dark-pink i {
     margin-left: 45px;
 }
 @media screen and (max-width: 500px) {
     .dark-pink {
-    color: #fff;
+        color: #fff;
         height: 450px;
-}
+    }
 }
 @media screen and (max-width: 420px) {
     .dark-pink {
-    color: #fff;
+        color: #fff;
         height: 470px;
-}
+    }
 }
 @media screen and (max-width: 420px) {
-    .dark-pink p{
-    font-size: 1.2em;
+    .dark-pink p {
+        font-size: 1.2em;
+    }
 }
-}
-footer{
+footer {
     text-align: center;
 }
 footer h5 {
