@@ -198,10 +198,10 @@ nav li .active:hover {
     margin-left: auto;
     margin-right: auto;
 }
-.event_date {
+.card-event-date {
     display: inline-block;
 }
-.event_txt {
+.card-event-text {
     border-right: 1px solid black;
     width: 100%
 }
