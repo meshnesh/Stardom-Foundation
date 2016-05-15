@@ -184,9 +184,10 @@ nav li .active:hover {
     top: 0;
     left: 0;
     padding: 1.3rem;
-    color: white;
+    color: #ffffff;
     font-size: 1.5em;
     font-weight: bold;
+    line-height: 20px;
 }
 .card-small .image img {
     border-radius: 2px 2px 0 0;
@@ -210,7 +211,11 @@ h1 {
     text-align: center;
 }
 .img_22 {
-    background-image: url(../img/kibera.jpeg);
+    background-image: url(../img/bath1.jpg);
+    /*
+    -webkit-filter: grayscale(50%);
+    -webkit-filter: brightness(70%);
+*/
 }
 
 /**************************************************/
