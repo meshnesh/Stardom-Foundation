@@ -149,6 +149,25 @@ footer .contact {
     color: #fff;
     height: 400;
 }
+.dark-pink button{
+    border: solid white 1px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-transition: background-color .5s ease-in-out;
+    color: white;
+}
+.dark-pink button a{
+    text-decoration: none;
+    color: white;
+}
+.dark-pink button a:hover{
+    color: black;
+}
+.dark-pink button:hover{
+    background-color: white;
+    color: black;
+}
 .dark-pink i {
     margin-left: 45px;
 }
