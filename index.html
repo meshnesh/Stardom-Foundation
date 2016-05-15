@@ -2,32 +2,53 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Home &#124; Stardom</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/./js/parallax.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/nav_mobile.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+
 </head>
 
 <body>
+
+
+    <!--    *******************************  -->
+    <!--    Beginning Of Nav Bar-->
     <section>
-        <nav class="top-navigation">
+        <nav class="desk_nav top-navigation">
             <ul>
                 <li>
                     <a href="#home"><img src="./img/pngone.png"></a>
                 </li>
                 <li style="float:right; padding-top:20px;"><a class="active" href="#about">DONATE</a></li>
-                <li style="float:right; margin-right:100px; padding-top:20px;"><a href="#about">SUPPORT</a></li>
-                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">EVENTS</a></li>
-                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">ABOUT</a></li>
-                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#about">HOME</a></li>
+                <li style="float:right; margin-right:100px; padding-top:20px;"><a href="./programs.html">SUPPORT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./events.html">EVENTS</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./about.html">ABOUT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#hero">HOME</a></li>
             </ul>
         </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content">
+                <a href="#hero">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./events.html">EVENTS</a>
+                <a href="./programs.html">SUPPORT</a>
+                <a href="#abot">DONATE</a>
+            </div>
+        </div>
+        <span class="mobile_nav" style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">☰ </span>
     </section>
+    <!--    End of Nav Bar-->
+
 
     <section class="hero">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/hero4.jpg">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/overlay-pic.png">
             <p>WE ARE AN ORGANIZATION ADDRESSING</p>
         </div>
     </section>
@@ -37,19 +58,22 @@
 
 
     <section class="quote">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/qoute-pic2.JPG"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/quote-pic.png"></div>
     </section>
 
     <section class="impact">
         <div class="row">
-            <div class="small-12 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
-            <div class="small-12 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
-            <div class="small-12 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
         </div>
     </section>
@@ -68,16 +92,21 @@
             <div class="dark-pink small-12 large-5 columns">
                 <h5>ABOUT US</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="dark-pink small-12 large-4 columns">
                 <h5>LET'S BE SOCIAL</h5>
+                <div>
+                    <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                </div>
                 <h5>LOOKING FOR SOMETHING 
                     <div class="post">
     <div class="contact">
         <form>
             <div class="input-group message">
-                <textarea name="" id="" cols="47" rows="7" placeholder="Search in this website"></textarea>
+                <textarea name="" id="" cols="47" rows="5" placeholder="Search in this website"></textarea>
             </div>
         </form>
     </div>
