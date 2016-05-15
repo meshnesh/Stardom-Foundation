@@ -9,7 +9,7 @@ nav ul {
     overflow: hidden;
     background-color: #FFFFFF;
 
-    width: 90%;
+    width: 100%;
     height: 65px;
     box-shadow: 0px 2px 7px #655a5a
 }
@@ -39,6 +39,18 @@ nav li .active {
     text-align: center;
     padding-bottom: 5%;
 
+}
+
+.left{
+    background: #FE017E;
+}
+
+.second{
+    background: #FE017E;
+}
+
+.fifth{
+    background: #FE017E;
 }
 
 footer{
@@ -108,4 +120,23 @@ footer p {
         margin-left: 0%;
 
 }
+
+    nav li img {
+        height: 45px;
+        padding-left: 10px;
+    }
+
+
+nav li a {
+    font-size: 0.5em;
 }
+    /*nav li {*/
+        /*margin-right: 1px;*/
+        /*float: right;*/
+        /*padding-top: 20px;*/
+    /*}*/
+
+
+
+}
+
