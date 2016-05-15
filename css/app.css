@@ -104,13 +104,11 @@ nav li .active:hover {
     background-image: ;
 }
 .impact {
-    height: 20vw;
     background-color: #E4007D;
 }
-@media screen and (max-width: 640px) {
-    .impact {
-        height: 550px;
-    }
+.impact .pad-impact {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .impact p {
     color: #fff;
