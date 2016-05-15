@@ -35,6 +35,11 @@ nav li .active {
     padding-right: 100px
 }
 /*END OF NAVIGATION*/
+ul {
+    list-style-type: devanagari;
+}
+
+
 .small-6 {
     text-align: center;
     padding-bottom: 5%;
@@ -55,6 +60,8 @@ nav li .active {
 
 footer{
     background: #757575;
+    height: 11%;
+    margin-top: 2%;
 }
 
 
