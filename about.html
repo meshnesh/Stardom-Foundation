@@ -21,6 +21,7 @@
 </style>
 
 <body>
+
     <!--    *******************************  -->
     <!--    Beginning Of Nav Bar-->
     <section>
@@ -29,7 +30,7 @@
                 <li>
                     <a href="#home"><img src="./img/pngone.png"></a>
                 </li>
-                <li style="float:right; padding-top:20px;"><a class="active" href="#about">DONATE</a></li>
+                <li style="float:right; padding-top:20px;"><a data-open="exampleModal1" class="active" href="#about">CONTACT</a></li>
                 <li style="float:right; margin-right:100px; padding-top:20px;"><a href="./programs.html">SUPPORT</a></li>
                 <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./events.html">EVENTS</a></li>
                 <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./about.html">ABOUT</a></li>
@@ -44,12 +45,60 @@
                 <a href="./about.html">ABOUT</a>
                 <a href="./events.html">EVENTS</a>
                 <a href="./programs.html">SUPPORT</a>
-                <a href="#abot">DONATE</a>
+                <a data-open="exampleModal1" href="#abot">CONTACT</a>
             </div>
         </div>
         <span class="mobile_nav" style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">☰ </span>
+
+        <!--        *****************************************-->
+        <!--        MODAL TO BE OPENED ON CLICKING CONTACT-->
+        <div class=" reveal" id="exampleModal1" data-reveal>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h1>Location&#40;s&#41;&#58;</h1>
+            <!--            KENYA-->
+            <h3>Kenya<span><p style="font-size: 20px;">&#40;Headquarters&#41;</p></span></h3>
+            <p>Stardom,
+                <br>Street 43,
+                <br> Lane 7,
+                <br> Block 23 Ngong Road,
+                <br> +254&#40;0&#41;701257903
+                <br> Nairobi, Kenya</p>
+
+
+            <!--            ZAMBIA-->
+            <h3>Zambia</h3>
+            <p>Stardom Foundation Office,
+                <br> Plot 34872A,
+                <br> Great N,
+                <br> +260&#40;0&#41;950798687
+                <br> Lusaka, Zambia</p>
+
+
+            <!--            UGANDA-->
+            <h3>Uganda</h3>
+            <p>Stardom Organisation,
+                <br> c/o AVSI,
+                <br> Plot 1119 Ggaba Road,
+                <br> +256&#40;0&#41;772778813
+                <br> Kyenjojo, Uganda</p>
+
+
+            <!--            NIGERIA-->
+            <h3>Nigeria</h3>
+
+            <p>Stardom Office,
+                <br>Number 3,
+                <br>Aliyu Abubakar Road,
+                <br> Anwan Rimi,
+                <br> +234&#40;0&#41;8031439750
+                <br> Kaduna, Nigeria</p>
+        </div>
+        <!--        END OF MODAL-->
     </section>
     <!--    End of Nav Bar-->
+
 
     <div id="slideshow">
         <!--  <div class="small-12 large-2 columns"><p></p></div>
