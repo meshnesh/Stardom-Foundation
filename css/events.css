@@ -40,8 +40,9 @@ body {
 .card .image {
     position: relative;
     height: 200px;
-    background-size: 100% 170%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .card .image .title {
     position: absolute;
@@ -50,6 +51,7 @@ body {
     padding: 1.3rem;
     color: #fff;
     font-size: 2.5em;
+    font-weight: bolder;
 }
 .card .image img {
     border-radius: 2px 2px 0 0;
@@ -72,16 +74,17 @@ body {
     background-image: url(../img/pattern.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 10%;
 }
 h1 {
     text-align: center;
 }
 .img_1 {
-    background-image: url(../img/pad.jpeg);
+    background-image: url(../img/pad.png);
 }
 .img_2 {
-    background-image: url(../img/pad2.jpg);
+    background-image: url(../img/pad2.png);
 }
 .img_3 {
-    background-image: url(../img/pad3.jpg);
+    background-image: url(../img/pad3.png);
 }
