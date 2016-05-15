@@ -8,8 +8,8 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #FFFFFF;
-    position: fixed;
-    width: 100%;
+
+    width: 90%;
     height: 65px;
     box-shadow: 0px 2px 7px #655a5a
 }
@@ -34,8 +34,11 @@ nav li a {
 nav li .active {
     padding-right: 100px
 }
+/*END OF NAVIGATION*/
+.small-6 {
+    text-align: center;
 
-
+}
 
 footer{
     background: #757575;
@@ -62,6 +65,7 @@ footer p {
 @media only screen and (max-width: 1024px) {
     .small-6 {
         width: 50%;
+        text-align: center;
 
     }
 
@@ -84,6 +88,7 @@ footer p {
 @media only screen and (max-width: 600px) {
     .small-6 {
         width: 100%;
+        text-align: center;
 
     }
     .left{
