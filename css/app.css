@@ -69,6 +69,11 @@ nav li .active:hover {
     line-height: 45px;
     padding-top: 338px;
 }
+@media screen and (max-width: 600px) {
+    .hero {
+        background-image: url(../img/hero.png);
+    }
+}
 @media screen and (max-width: 418px) {
     .hero p {
         padding-top: 230px;
