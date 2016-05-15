@@ -42,20 +42,23 @@ ul {
 
 .small-6 {
     text-align: center;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
 
 }
 
 .left{
     background: #FE017E;
+    margin-bottom: 5%;
 }
 
 .second{
     background: #FE017E;
+    margin-bottom: 5%;
 }
 
 .fifth{
     background: #FE017E;
+    margin-bottom: 5%;
 }
 
 footer{
