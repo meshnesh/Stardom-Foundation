@@ -1,43 +1,41 @@
-
-#begin{
-	/*padding: 4%;*/
-	margin-top: 50px;
+#begin {
+    /*padding: 4%;*/
+    margin-top: 50px;
 }
-
-#slideshow{
-max-height: 500px;
-overflow-y: hidden;
-
+#slideshow {
+    max-height: 500px;
+    overflow-y: hidden;
 }
-.large-12{
-	padding-left: 12%;
-	width: 89%;
-	text-align: center;
+.large-12 {
+    padding-left: 12%;
+    width: 89%;
+    text-align: center;
 }
-p{
-	font-size: 130%;
-
+p {
+    font-size: 130%;
 }
-#txt{
-	padding: 10px;
+#txt {
+    padding: 10px;
 }
-#som{
-	padding-top: 30px;
+#som {
+    padding-top: 30px;
 }
-h2{
-	padding-left: 30%;
+h2 {
+    padding-left: 30%;
 }
-#program, #events {
-	padding: 10px;
+#program,
+#events {
+    padding: 10px;
 }
-
-body{
-	background-color: #ddd;
+.about_bg {
+    background-image: url(../img/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#themselves{
-	border: solid 5px white;
+#themselves {
+    border: solid 5px white;
 }
-.mySlides{
-
+.mySlides {}
+p {
+    margin-bottom: 0;
 }
-
