@@ -22,6 +22,7 @@ h1 {
 
 @media only screen and (max-width: 1240px) {
     .small-6 {
+        /*padding-left: 12px;*/
         width: 50%;
         text-align: center;
         padding-bottom: 3%;
@@ -37,9 +38,13 @@ h1 {
     footer {
         height: 20%;
     }
+    .large-collapse > .columns {
+        padding-left: 12px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .small-6 {
+        padding-left: 12px;
         width: 100%;
         text-align: center;
         padding-bottom: 5%;
@@ -96,9 +101,12 @@ h1 {
         order: 1;
         width: 100%;
     }
+    .large-collapse > .columns {
+        padding-left: 12px;
+    }
 }
 
 
 .large-collapse > .columns {
-    padding-left: 35px;
+    padding-left: 12px;
 }
