@@ -11,6 +11,13 @@ h1 {
     height: 270px;
 }
 
+.small-6 {
+    padding: 3%;
+}
+.fourth{
+    padding-left: 10px;
+}
+
 /*MEDIA QUERIS*/
 
 @media only screen and (max-width: 1240px) {
@@ -89,4 +96,9 @@ h1 {
         order: 1;
         width: 100%;
     }
+}
+
+
+.large-collapse > .columns {
+    padding-left: 35px;
 }
