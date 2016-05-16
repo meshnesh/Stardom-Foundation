@@ -28,7 +28,7 @@ h2 {
     padding: 10px;
 }
 .about_bg {
-    background-image: url(../img/triangle_bg.png);
+    background-image: url(../img/pattern.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,101 +36,6 @@ h2 {
     border: solid 5px white;
 }
 .mySlides {}
-
-/**************************************************/
-
-footer {
-    margin-top: 100px;
-}
-footer .contact {
-    min-width: 100%;
-}
-.light-pink {
-    background-color: #ff1493;
-    height: 35vw;
-    text-align: right;
-    color: #fff;
-    height: 400;
-}
-.light-pink h5 {
-    text-align: right;
-}
-.light-pink p {
-    text-align: right;
-}
-@media screen and (max-width: 420px) {
-    .light-pink p {
-        font-size: 1.2em;
-    }
-}
-.dark-pink {
-    background-color: #ff69b4;
-    color: #fff;
-    height: 400;
-}
-.dark-pink button {
-    border: solid white 1px;
-    padding: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    -webkit-transition: background-color .5s ease-in-out;
-    color: white;
-}
-.dark-pink button a {
-    text-decoration: none;
-    color: white;
-}
-.dark-pink button a:hover {
-    color: black;
-}
-.dark-pink button:hover {
-    background-color: white;
-    color: black;
-}
-.dark-pink i {
-    margin-left: 15px;
-}
-@media screen and (max-width: 500px) {
-    .dark-pink {
-        color: #fff;
-        height: 450px;
-    }
-}
-@media screen and (max-width: 420px) {
-    .dark-pink {
-        color: #fff;
-        height: 470px;
-    }
-}
-@media screen and (max-width: 420px) {
-    .dark-pink p {
-        font-size: 1.2em;
-    }
-}
-footer {
-    text-align: center;
-}
-footer h5 {
-    padding-top: 50px;
-    font-size: 1.8em;
-    font-family: "raleway", serif;
-    font-weight: 600;
-    text-align: center;
-}
-footer p {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 1.5em;
-}
-.post .contact form {
-    display: table;
-    margin: 0 auto;
-}
-.post .contact form .input-group textarea {
-    background: #fff;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 16px;
+p {
+    margin-bottom: 0;
 }

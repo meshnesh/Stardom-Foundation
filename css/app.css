@@ -128,7 +128,6 @@ nav li .active:hover {
 /**************************************************/
 
 .events-prog {
-    height: 30vw;
     color: black;
     text-align: center;
     padding-top: 30px
@@ -219,18 +218,14 @@ h1 {
 
 /**************************************************/
 
-footer {
-    margin-top: 100px;
-}
 footer .contact {
     min-width: 100%;
+    background-color: #ff69b4;
 }
 .light-pink {
     background-color: #ff1493;
-    height: 35vw;
     text-align: right;
     color: #fff;
-    height: 400;
 }
 .light-pink h5 {
     text-align: right;
@@ -246,7 +241,7 @@ footer .contact {
 .dark-pink {
     background-color: #ff69b4;
     color: #fff;
-    height: 400;
+    padding-bottom: 30px;
 }
 .dark-pink button {
     border: solid white 1px;
@@ -273,13 +268,6 @@ footer .contact {
 @media screen and (max-width: 500px) {
     .dark-pink {
         color: #fff;
-        height: 450px;
-    }
-}
-@media screen and (max-width: 420px) {
-    .dark-pink {
-        color: #fff;
-        height: 470px;
     }
 }
 @media screen and (max-width: 420px) {
@@ -313,4 +301,8 @@ footer p {
     border-radius: 5px;
     padding: 15px;
     font-size: 16px;
+}
+.copy_right {
+    background-color: white;
+    height: 75px;
 }
