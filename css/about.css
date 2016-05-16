@@ -1,20 +1,43 @@
-.trial {
-	background-color: hotpink;
-	height:400px;
-	padding:70px;
-	z-index: -1;
+
+#begin{
+	/*padding: 4%;*/
+	margin-top: 50px;
 }
 
-.woa {
-	border: solid 2px black;
-	background-color:white;
-	margin-top:280px;
-	margin-bottom: 40px;
-	padding:50px;
-	font-size: 150%;
+#slideshow{
+max-height: 500px;
+overflow-y: hidden;
+
+}
+.large-12{
+	padding-left: 12%;
+	width: 89%;
+	text-align: center;
+}
+p{
+	font-size: 130%;
+
+}
+#txt{
+	padding: 10px;
+}
+#som{
+	padding-top: 30px;
+}
+h2{
+	padding-left: 30%;
+}
+#program, #events {
+	padding: 10px;
 }
 
 body{
-	text-align: center;
-	background-color: black;
+	background-color: #ddd;
 }
+#themselves{
+	border: solid 5px white;
+}
+.mySlides{
+
+}
+

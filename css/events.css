@@ -1,19 +1,3 @@
-/*
-    img {
-        width: 100%;
-    }
-    .qq {
-        border: 1px solid gray;
-        box-shadow: 0px 0px 25px 5px #888888;
-        padding: 0;
-    }
-    .event_1 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGElEQVQIW2NkYGD4z8DAwMgAI0AMdM5/ACRwAgMsRgU3AAAAAElFTkSuQmCC), url(../img/stacy-1.jpg);
-        height: 300px;
-        background-size: 100% 100%;
-    }
-*/
-
 html,
 body {
     background: #FAFAFA;
@@ -23,6 +7,7 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     color: #272727;
     border-radius: 2px;
+    background-color: ghostwhite;
 }
 .card .title {
     line-height: 3rem;
@@ -54,6 +39,10 @@ body {
 }
 .card .image {
     position: relative;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .card .image .title {
     position: absolute;
@@ -62,11 +51,12 @@ body {
     padding: 1.3rem;
     color: #fff;
     font-size: 2.5em;
+    font-weight: bolder;
 }
 .card .image img {
     border-radius: 2px 2px 0 0;
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 .qq {
     padding: 3% 0;
@@ -80,9 +70,21 @@ body {
 .event_txt {
     border-right: 1px solid black;
 }
-
-/*
-.cal {
-    text-align: right;
+.events_bg {
+    background-image: url(../img/pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
 }
-*/
+h1 {
+    text-align: center;
+}
+.img_1 {
+    background-image: url(../img/pad.png);
+}
+.img_2 {
+    background-image: url(../img/pad2.png);
+}
+.img_3 {
+    background-image: url(../img/pad3.png);
+}

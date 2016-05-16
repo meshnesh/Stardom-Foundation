@@ -2,33 +2,109 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Home &#124; Stardom</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/./js/parallax.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/nav_mobile.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+
 </head>
 
 <body>
+
+
+    <!--    *******************************  -->
+    <!--    Beginning Of Nav Bar-->
     <section>
-        <nav class="top-navigation">
+        <nav class="desk_nav top-navigation">
             <ul>
                 <li>
                     <a href="#home"><img src="./img/pngone.png"></a>
                 </li>
+<<<<<<< HEAD
                 <!--<li style="float:right; padding-top:20px;"><a class="active" href="#about">DONATE</a></li>-->
                 <li style="float:right; margin-right:100px; padding-top:20px;"><a href="#">PROGRAM</a></li>
                 <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#">EVENTS</a></li>
                 <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#">ABOUT</a></li>
                 <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#">HOME</a></li>
+=======
+                <li style="float:right; padding-top:20px;"><a data-open="exampleModal1" class="active" href="#about">CONTACT</a></li>
+                <li style="float:right; margin-right:100px; padding-top:20px;"><a href="./programs.html">SUPPORT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./events.html">EVENTS</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="./about.html">ABOUT</a></li>
+                <li style="float:right; padding-right:20px; padding-top:20px;"><a href="#hero">HOME</a></li>
+>>>>>>> df7d1041065eaea12c7c9aa2ca05f294b3a090b7
             </ul>
         </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content">
+                <a href="#hero">HOME</a>
+                <a href="./about.html">ABOUT</a>
+                <a href="./events.html">EVENTS</a>
+                <a href="./programs.html">SUPPORT</a>
+                <a data-open="exampleModal1" href="#abot">CONTACT</a>
+            </div>
+        </div>
+        <span class="mobile_nav" style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">☰ </span>
+
+        <!--        *****************************************-->
+        <!--        MODAL TO BE OPENED ON CLICKING CONTACT-->
+        <div class=" reveal" id="exampleModal1" data-reveal>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h1>Location&#40;s&#41;&#58;</h1>
+            <!--            KENYA-->
+            <h3>Kenya<span><p style="font-size: 20px;">&#40;Headquarters&#41;</p></span></h3>
+            <p>Stardom,
+                <br>Street 43,
+                <br> Lane 7,
+                <br> Block 23 Ngong Road,
+                <br> +254&#40;0&#41;701257903
+                <br> Nairobi, Kenya</p>
+
+
+            <!--            ZAMBIA-->
+            <h3>Zambia</h3>
+            <p>Stardom Foundation Office,
+                <br> Plot 34872A,
+                <br> Great N,
+                <br> +260&#40;0&#41;950798687
+                <br> Lusaka, Zambia</p>
+
+
+            <!--            UGANDA-->
+            <h3>Uganda</h3>
+            <p>Stardom Organisation,
+                <br> c/o AVSI,
+                <br> Plot 1119 Ggaba Road,
+                <br> +256&#40;0&#41;772778813
+                <br> Kyenjojo, Uganda</p>
+
+
+            <!--            NIGERIA-->
+            <h3>Nigeria</h3>
+
+            <p>Stardom Office,
+                <br>Number 3,
+                <br>Aliyu Abubakar Road,
+                <br> Anwan Rimi,
+                <br> +234&#40;0&#41;8031439750
+                <br> Kaduna, Nigeria</p>
+        </div>
+        <!--        END OF MODAL-->
     </section>
+    <!--    End of Nav Bar-->
+
 
     <section class="hero">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/hero4.jpg">
-            <p>WE ARE AN ORGANIZATION ADDRESSING</p>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/overlay-pic.png">
+            <p>WE ARE TRANSFORMING THE LIVES OF YOUNG LADIES ALL OVER AFRICA</p>
         </div>
     </section>
     <section class="about">
@@ -37,25 +113,108 @@
 
 
     <section class="quote">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/qoute-pic2.JPG"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="./img/quote-pic.png"></div>
     </section>
 
     <section class="impact">
-        <div class="row">
-            <div class="small-12 large-4 columns">
+        <div class="row pad-impact">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
-            <div class="small-12 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
-            <div class="small-12 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns">
                 <p>3000</p>
+                <p><span>VOLUNTEERS</span></p>
             </div>
         </div>
     </section>
 
     <section class="events-prog">
+        <h5 style="font-size:2em;">UPCOMING EVENTS</h5>
+        <div class="row cards-home">
+            <div class="small-12 medium-4 large-4 columns">
+                <div class="card-small-big">
+                    <div class=" small-centered large-centered columns ">
+                        <div class="row">
+                            <div class=" columns">
+                                <div class="card-small">
+                                    <div class="image img_22">
+                                        <span class="card-header">Jibebe Highschool Outreach</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="small-10 medium-11 large-11 column card-event-date card-event-text">
+                                            <p>I shall be telling this with a sigh . Somewhere ages and ages hence: Two roads diverged in a wood, and I</p>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a href='#'>Join</a>
 
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 medium-4 large-4 columns">
+                <div class="card-small-big">
+                    <div class=" small-centered large-centered columns ">
+                        <div class="row">
+                            <div class=" columns">
+                                <div class="card-small">
+                                    <div class="image img_22">
+                                        <span class="card-header">Young Girls Camp Kawangware</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="small-10 medium-11 large-11 column card-event-date card-event-text">
+                                            <p>I shall be telling this with a sigh . Somewhere ages and ages hence: Two roads diverged in a wood, and I</p>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a href='#'>Join</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 medium-4 large-4 columns">
+                <div class="card-small-big">
+                    <div class=" small-centered large-centered columns ">
+                        <div class="row">
+                            <div class=" columns">
+                                <div class="card-small">
+                                    <div class="image img_22">
+                                        <span class="card-header">Riara River School</span>
+                                    </div>
+                                    <div class="content">
+                                        <div class="small-10 medium-11 large-11 column card-event-date card-event-text">
+                                            <p>I shall be telling this with a sigh . Somewhere ages and ages hence: Two roads diverged in a wood, and I</p>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a href='#'>Join</a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -68,21 +227,28 @@
             <div class="dark-pink small-12 large-5 columns">
                 <h5>ABOUT US</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button><a href="./about.html">READ MORE</a></button>
             </div>
             <div class="dark-pink small-12 large-4 columns">
                 <h5>LET'S BE SOCIAL</h5>
+                <div>
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+                </div>
+                <!--
                 <h5>LOOKING FOR SOMETHING 
                     <div class="post">
     <div class="contact">
         <form>
             <div class="input-group message">
-                <textarea name="" id="" cols="47" rows="7" placeholder="Search in this website"></textarea>
+                <textarea name="" id="" cols="47" rows="5" placeholder="Search in this website"></textarea>
             </div>
         </form>
     </div>
 </div>
                 </h5>
+-->
             </div>
         </div>
         <p>Copyright © 2016 </p>
