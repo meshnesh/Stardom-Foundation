@@ -12,16 +12,13 @@ h1 {
 .thumbnail{
     height: 270px;
 }
-ul {
-    list-style-type: devanagari;
-}
 
 
-.small-6 {
-    text-align: center;
-    /*padding-bottom: 5%;*/
 
-}
+/*.small-6 {  text-align: center;*/
+    /*!*padding-bottom: 5%;*!*/
+
+/*}*/
 
 
 footer{
