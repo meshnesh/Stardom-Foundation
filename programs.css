@@ -2,8 +2,13 @@
 
 body{
     background-image: url(img/pattern.png);
-    
+
  }
+
+h1 {
+    text-align: center;
+    padding-top: 10%;
+}
 .thumbnail{
     height: 270px;
 }
@@ -20,19 +25,19 @@ ul {
 
 .left{
     height: 270px;
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
 .second{
     height: 270px;
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
 .fifth{
     height: 270px;
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
