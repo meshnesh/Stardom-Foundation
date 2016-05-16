@@ -1,43 +1,136 @@
+#begin {
+    /*padding: 4%;*/
+    margin-top: 50px;
+}
+#slideshow {
+    max-height: 500px;
+    overflow-y: hidden;
+}
+.large-12 {
+    padding-left: 12%;
+    width: 89%;
+    text-align: center;
+}
+p {
+    font-size: 130%;
+}
+#txt {
+    padding: 10px;
+}
+#som {
+    padding-top: 30px;
+}
+h2 {
+    padding-left: 30%;
+}
+#program,
+#events {
+    padding: 10px;
+}
+.about_bg {
+    background-image: url(../img/triangle_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#themselves {
+    border: solid 5px white;
+}
+.mySlides {}
 
-#begin{
-	/*padding: 4%;*/
-	margin-top: 50px;
-}
+/**************************************************/
 
-#slideshow{
-max-height: 500px;
-overflow-y: hidden;
-
+footer {
+    margin-top: 100px;
 }
-.large-12{
-	padding-left: 12%;
-	width: 89%;
-	text-align: center;
+footer .contact {
+    min-width: 100%;
 }
-p{
-	font-size: 130%;
-
+.light-pink {
+    background-color: #ff1493;
+    height: 35vw;
+    text-align: right;
+    color: #fff;
+    height: 400;
 }
-#txt{
-	padding: 10px;
+.light-pink h5 {
+    text-align: right;
 }
-#som{
-	padding-top: 30px;
+.light-pink p {
+    text-align: right;
 }
-h2{
-	padding-left: 30%;
+@media screen and (max-width: 420px) {
+    .light-pink p {
+        font-size: 1.2em;
+    }
 }
-#program, #events {
-	padding: 10px;
+.dark-pink {
+    background-color: #ff69b4;
+    color: #fff;
+    height: 400;
 }
-
-body{
-	background-color: #ddd;
+.dark-pink button {
+    border: solid white 1px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-transition: background-color .5s ease-in-out;
+    color: white;
 }
-#themselves{
-	border: solid 5px white;
+.dark-pink button a {
+    text-decoration: none;
+    color: white;
 }
-.mySlides{
-
+.dark-pink button a:hover {
+    color: black;
 }
-
+.dark-pink button:hover {
+    background-color: white;
+    color: black;
+}
+.dark-pink i {
+    margin-left: 15px;
+}
+@media screen and (max-width: 500px) {
+    .dark-pink {
+        color: #fff;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .dark-pink {
+        color: #fff;
+        height: 470px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .dark-pink p {
+        font-size: 1.2em;
+    }
+}
+footer {
+    text-align: center;
+}
+footer h5 {
+    padding-top: 50px;
+    font-size: 1.8em;
+    font-family: "raleway", serif;
+    font-weight: 600;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+.post .contact form {
+    display: table;
+    margin: 0 auto;
+}
+.post .contact form .input-group textarea {
+    background: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+}
