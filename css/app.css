@@ -204,7 +204,6 @@ nav li .active:hover {
     display: inline-block;
 }
 .card-event-text {
-    border-right: 1px solid black;
     width: 100%
 }
 h1 {
