@@ -1,67 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 body{
-    background: #bababa;
-}
-.small-6 {
-    margin-top: 10%;
-}
+    background-image: url(img/pattern.png);
 
-p{
+ }
+
+h1 {
     text-align: center;
+    padding-top: 6%;
+}
+.thumbnail{
+    height: 270px;
 }
 
 
 
-.right{
-    width: 55%;
-}
-.left{
-    opacity: 0.9;
-    background: #FC017D;
-    width: 50%;
-    margin-top: -30%;
-    /*height: 60vh;*/
+/*.small-6 {  text-align: center;*/
+    /*!*padding-bottom: 5%;*!*/
 
-}
-
-.second{
-    opacity: 0.9;
-    background: #FC017D;
-    width: 65%;
-}
-
-
-.third{
-    width: 55%;
-    margin-top: -25%;
-}
-
-
-.fourth{
-    width: 55%;
-}
-.fifth{
-    opacity: 0.9;
-    background: #FC017D;
-    width: 50%;
-    margin-top: -30%;
-
-}
-
-.thumbnail {
-    margin-top: 5%;
-    margin-left: 15%;
-}
-
+/*}*/
 
 
 footer{
     background: #757575;
+    height: 11%;
+    margin-top: 2%;
+
 }
 
-@media only screen and (max-width: 1024px) {
+
+footer .contact {
+    min-width: 100%
+}
+
+footer h5 {
+    padding-top: 50px;
+    font-size: 1.8em;
+    font-family: "raleway", serif;
+    font-weight: 600;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em
+}
+
+
+/*MEDIA QUERIS*/
+
+
+@media only screen and (max-width: 1240px) {
     .small-6 {
         width: 50%;
+        text-align: center;
+        padding-bottom: 3%;
 
     }
 
@@ -75,15 +68,16 @@ footer{
         margin-bottom: 1rem;
 
     }
+    footer{
+        height: 20%;
+    }
 }
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     .small-6 {
         width: 100%;
+        text-align: center;
+        padding-bottom: 5%;
 
     }
     .left{
@@ -100,4 +94,57 @@ footer{
         margin-left: 0%;
 
 }
+
+    nav li img {
+        height: 45px;
+        padding-left: 10px;
+    }
+    nav li a {
+    font-size: 0.5em;
+    }
+    footer{
+        height: 20%;
+    }
+   .third{
+       float: left;
+   }
+   .second{
+       float: right;
+       display: none;
+   }
+
+
+
+
+
+    .flex-row {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    /*.flex-row [class*=lind-] {*/
+        /*display: -webkit-flex;*/
+        /*display: -ms-flexbox;*/
+        /*display: flex;*/
+    /*}*/
+
+    /*.flex-row .lind-second,*/
+    /*.flex-row .lind-third {width:50%;}*/
+
+
+    /*.flex-row .limbo {*/
+        /*width: 100%;*/
+        /*something to keep it open and add some inner style */
+    /*}*/
+
+    .flex-row .lind-second {
+        order: 1;
+        width: 100%;
+    }
+
 }
+
