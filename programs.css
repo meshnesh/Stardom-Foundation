@@ -1,40 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+body{
+    background-image: url(img/pattern.png);
 
-/*NAVIGATION*/
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFFFFF;
+ }
 
-    width: 100%;
-    height: 65px;
-    box-shadow: 0px 2px 7px #655a5a
-}
-
-nav li {
-    float: left;
-}
-
-nav li img {
-    height: 60px;
-    padding-left: 100px;
-}
-
-nav li a {
-    display: block;
-    color: black;
-    font-weight: 600;
+h1 {
     text-align: center;
-    text-decoration: none;
+    padding-top: 10%;
 }
-
-nav li .active {
-    padding-right: 100px
+.thumbnail{
+    height: 270px;
 }
-/*END OF NAVIGATION*/
 ul {
     list-style-type: devanagari;
 }
@@ -47,17 +24,20 @@ ul {
 }
 
 .left{
-    background: #FE017E;
+    height: 270px;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
 .second{
-    background: #FE017E;
+    height: 270px;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
 .fifth{
-    background: #FE017E;
+    height: 270px;
+    /*background: #FFFFFF;*/
     margin-bottom: 5%;
 }
 
